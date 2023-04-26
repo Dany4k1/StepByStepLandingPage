@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<script type="text/javascript" src="script.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+	<script src="https://kit.fontawesome.com/bb14550322.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+		integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<title>Daniel Gonçalo - Front End Developer</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+	<link rel="icon" type="image/png" sizes="32x32" href="images/favicon-16x16.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="images/favicon-32x32.png">
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark font">
+	<div class="navbar-brand">Daniel Gonçalo - Front End Developer</div>
+	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+		aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+		<span class="navbar-toggler-icon"></span>
+	</button>
+	<div class="collapse navbar-collapse" id="navbarNav">
+		<ul class="navbar-nav">
+			<li class="nav-item active">
+				<a class="nav-link" href="index.html" onclick="fixScroll('intro')">Home <span
+						class="sr-only">(current)</span></a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="#" onclick="fixScroll('skills')">Skills</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="#" onclick="fixScroll('job-experience')">Jobs</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="#" onclick="fixScroll('contact')">Contact Me</a>
+			</li>
+		</ul>
+	</div>
+</nav>
+
+<body>
+	<div class="content-area animation">
+		<div id="intro">
+			<h1>Hello, I'm Daniel Gonçalo!</h1>
+			<img src="images/profile-pic.jpg" alt="profile picture" class="profile-picture">
+			<h2>Front End Developer</h2>
+			<p class="about-me">Hello! My name is Daniel and I am a software engineer with a big focus on Front End Development.</p>
+			<p class="about-me mt-20">Being a code enthusiast and detail oriented front-end developer, creating user friendly interfaces that can align minimal 
+				code and amazing design is my jam. Always eager to learn new things and improve my current skills!
+			</p>
+		</div>
+	</div>
+	<div class="content-area animation" id="skills" style="display: none;">
+		<div id="intro" class="animation">
+			<h1><i class="fa-solid fa-gear"></i> Skills</h1>
+			<img src="images/—Pngtree—programmers code the website from_4157702.png" alt="programer at the computer" class="skills-image">
+			<h3><i class="fa-solid fa-laptop-code"></i> Programming Languages</h3>
+			<p class="description_languages">HTML, CSS, Javascript, Typescript, SQL</p>
+			<h3><i class="fa-solid fa-database"></i> Frameworks and Libraries</h3>
+			<p class="description_languages">Wordpress, Drupal, Prestashop, Angular, Bootstrap</p>
+		</div>
+	</div>
+	<div id="job-experience" class="content-area" style="display: none;">
+		<div class="animation">
+			<h1><i class="fa-solid fa-briefcase"></i> Work Experiences</h1>
+			<p class="about-me adjustment">My previous job experiences and the companies I worked for: </p>
+			<div class="list-group">
+				<div class="list-group-item list-group-item-action active" aria-current="true">
+					<i class="fa-solid fa-chevron-right"></i> Company 1 (2017 - 2018) - Front End Developer
+				</div>
+				<div class="list-group-item list-group-item-action">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+					incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea 
+					commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+					Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+			  </div>
+			  <div class="list-group">
+				<div class="list-group-item list-group-item-action active" aria-current="true">
+					<i class="fa-solid fa-chevron-right"></i> Company 2 (2018-2020) - Front End Developer
+				</div>
+				<div class="list-group-item list-group-item-action">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+					incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea 
+					commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+					Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+			  </div>
+			  <div class="list-group">
+				<div class="list-group-item list-group-item-action active" aria-current="true">
+					<i class="fa-solid fa-chevron-right"></i> Company 3 (2021-2023) - Front End Analyst
+				</div>
+				<div class="list-group-item list-group-item-action">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+					incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea 
+					commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+					Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+			</div>
+		</div>
+	</div>
+	<div id="contact" class="content-area" style="display: none;">
+		<div class="animation">
+		<h1><i class="fa-solid fa-phone"></i> Contact Me!</h1>
+		<p class="about-me" style="margin-top: 2%">Currently looking for new opportunities, my inbox is always open!</p>
+		<p class="about-me">You can contact me by <a href="mailto: dany4k.ual@gmail.com" style="color:#c04d2b; font-weight: bold;">email</a> or
+			through <a href="https://www.linkedin.com/" style="color:#c04d2b;font-weight: bold;">Linkedin</a>.</p>
+		<button class="cv-button"><a href="attachments/dummy.pdf"
+				download="Daniel Gonçalo CV 2023.pdf"><i class="fa-solid fa-circle-down"></i> Download
+				Resume</a></button>
+			</div>
+	</div>
+</body>
